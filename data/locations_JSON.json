@@ -1,0 +1,1441 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "NAME" : "NAME",
+    "PLACE" : "PLACE",
+    "ADDR:CITY" : "ADDR:CITY",
+    "ADDR:HOUSE" : "ADDR:HOUSE",
+    "ADDR:FLATS" : "ADDR:FLATS",
+    "ADDR:POSTC" : "ADDR:POSTC"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkt" : "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"degree\",0.0174532925199433]]"
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "NAME",
+      "length" : 17
+    },
+    {
+      "name" : "PLACE",
+      "type" : "esriFieldTypeString",
+      "alias" : "PLACE",
+      "length" : 8
+    },
+    {
+      "name" : "ADDR:CITY",
+      "type" : "esriFieldTypeString",
+      "alias" : "ADDR:CITY",
+      "length" : 32
+    },
+    {
+      "name" : "ADDR:HOUSE",
+      "type" : "esriFieldTypeString",
+      "alias" : "ADDR:HOUSE",
+      "length" : 32
+    },
+    {
+      "name" : "ADDR:FLATS",
+      "type" : "esriFieldTypeString",
+      "alias" : "ADDR:FLATS",
+      "length" : 32
+    },
+    {
+      "name" : "ADDR:POSTC",
+      "type" : "esriFieldTypeString",
+      "alias" : "ADDR:POSTC",
+      "length" : 32
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "NAME" : "Tseram",
+        "PLACE" : "hamlet",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 87.977326899999994,
+        "y" : 27.5691746
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "NAME" : "Ramche",
+        "PLACE" : "hamlet",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.031707299999994,
+        "y" : 27.593985100000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "NAME" : "Lhonak",
+        "PLACE" : "hamlet",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.0361841,
+        "y" : 27.790076500000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "NAME" : "Tashiding",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.0642,
+        "y" : 27.418500000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "NAME" : "DANFEBIR",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.089749999999995,
+        "y" : 27.42737
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "NAME" : "YAMPUNG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.091130000000007,
+        "y" : 27.39029
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "NAME" : "MALLA DEORA",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.092500000000001,
+        "y" : 27.380680000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "NAME" : "CAMP",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.095249999999993,
+        "y" : 27.424620000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "NAME" : "PHEDI",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.100740000000002,
+        "y" : 27.377929999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "NAME" : "CAMP 2",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.102109999999996,
+        "y" : 27.376560000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "NAME" : "Pangpema",
+        "PLACE" : "hamlet",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.110257700000005,
+        "y" : 27.787925600000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "NAME" : "SHINGSHORE BRIDGE",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.113100000000003,
+        "y" : 27.261199999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "NAME" : "CHONGRI",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.118589999999998,
+        "y" : 27.353210000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "NAME" : "BEGHA",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.119969999999995,
+        "y" : 27.259830000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "NAME" : "Gezing",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.122299999999996,
+        "y" : 27.2638
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "NAME" : "SINGH KHOLA",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.129580000000004,
+        "y" : 27.34909
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "NAME" : "Shankola",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.134035400000002,
+        "y" : 27.3468135
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "NAME" : "DENTAM",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.139307500000001,
+        "y" : 27.261180199999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "NAME" : "Rimbi Hare Khola",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.150033199999996,
+        "y" : 27.328629500000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "NAME" : " ",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.155869100000004,
+        "y" : 27.316336700000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "NAME" : "NAMBU",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.159790000000001,
+        "y" : 27.313389999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 21,
+        "NAME" : "RUMDIN",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.172150000000002,
+        "y" : 27.136230000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 22,
+        "NAME" : "Rimbi",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.185890000000001,
+        "y" : 27.31476
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 23,
+        "NAME" : "MANGSAR",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.198239999999998,
+        "y" : 27.147220000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 24,
+        "NAME" : "CORONATION STONE",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.217470000000006,
+        "y" : 27.37106
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 25,
+        "NAME" : "Yuksom",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.220396800000003,
+        "y" : 27.3782256
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 26,
+        "NAME" : "Pelling",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.231200000000001,
+        "y" : 27.30377
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 27,
+        "NAME" : "West District",
+        "PLACE" : "county",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.25,
+        "y" : 27.333333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 28,
+        "NAME" : "Pemayangtse",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.251309000000006,
+        "y" : 27.304392
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 29,
+        "NAME" : "Gayzing",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.257300000000001,
+        "y" : 27.290040000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 30,
+        "NAME" : "GERETHANG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.257300000000001,
+        "y" : 27.34497
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 31,
+        "NAME" : "Ghum",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.258538099999996,
+        "y" : 27.008350400000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 32,
+        "NAME" : "Darjeeling",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.266866800000003,
+        "y" : 27.046546599999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 33,
+        "NAME" : "Naya Bazaar",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.275149999999996,
+        "y" : 27.132110000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 34,
+        "NAME" : "Legship",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.275149999999996,
+        "y" : 27.280429999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 35,
+        "NAME" : "Jorethang",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.282534699999999,
+        "y" : 27.131523000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 36,
+        "NAME" : "Rangit Nagar",
+        "PLACE" : "suburb",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.284011100000001,
+        "y" : 27.2818155
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 37,
+        "NAME" : "TASHIDANG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.288880000000006,
+        "y" : 27.320250000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 38,
+        "NAME" : "Reshi",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.305359999999993,
+        "y" : 27.222750000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 39,
+        "NAME" : "Assangthang",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.327230299999997,
+        "y" : 27.158458199999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 40,
+        "NAME" : "Manpur",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.363300100000004,
+        "y" : 27.102518199999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 41,
+        "NAME" : "Ravangla",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.364472800000001,
+        "y" : 27.305126699999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 42,
+        "NAME" : "Namchi",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.365198100000001,
+        "y" : 27.166126200000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 43,
+        "NAME" : "Sumbuk",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.381360099999995,
+        "y" : 27.116036099999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 44,
+        "NAME" : "Damthang",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.389205700000005,
+        "y" : 27.230640999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 45,
+        "NAME" : "Sakyong",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.402909399999999,
+        "y" : 27.578362299999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 46,
+        "NAME" : "Yangang",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.414384900000002,
+        "y" : 27.294892300000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 47,
+        "NAME" : "South District",
+        "PLACE" : "county",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.416667000000004,
+        "y" : 27.333333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 48,
+        "NAME" : "Tarku",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.421625599999999,
+        "y" : 27.234630599999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 49,
+        "NAME" : "Phong",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.437475300000003,
+        "y" : 27.1541356
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 50,
+        "NAME" : "Pabong",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.446786399999993,
+        "y" : 27.2284638
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 51,
+        "NAME" : "Simchuthang",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.450680599999998,
+        "y" : 27.2442013
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 52,
+        "NAME" : "Melli",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.453269700000007,
+        "y" : 27.0891305
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 53,
+        "NAME" : "Makha",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.45917,
+        "y" : 27.313389999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 54,
+        "NAME" : "Gompa",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.461944200000005,
+        "y" : 27.039018299999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 55,
+        "NAME" : "Kalimpong",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.472899999999996,
+        "y" : 27.07169
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 56,
+        "NAME" : "Singtam",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.498371599999999,
+        "y" : 27.230080000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 57,
+        "NAME" : "North District",
+        "PLACE" : "county",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.5,
+        "y" : 27.666667
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 58,
+        "NAME" : "Dikchu",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.522198299999999,
+        "y" : 27.403451799999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 59,
+        "NAME" : "Rangpo",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.528659899999994,
+        "y" : 27.171597599999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 60,
+        "NAME" : "Sangkalang",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.529426799999996,
+        "y" : 27.506825599999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 61,
+        "NAME" : "Hema",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.533934099999996,
+        "y" : 27.759114700000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 62,
+        "NAME" : "Mangan",
+        "PLACE" : "town",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.536155600000001,
+        "y" : 27.49736
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 63,
+        "NAME" : "LACHEN",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.551180000000002,
+        "y" : 27.730869999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 64,
+        "NAME" : "CHATTEN",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.559420000000003,
+        "y" : 27.71576
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 65,
+        "NAME" : "GB PANT INSTITUTE",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.569097400000004,
+        "y" : 27.364051799999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 66,
+        "NAME" : "PHODONG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.571780000000004,
+        "y" : 27.410889999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 67,
+        "NAME" : "RANIPUL",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.591092599999996,
+        "y" : 27.293386600000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 68,
+        "NAME" : "Pakyong",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.595129999999997,
+        "y" : 27.241969999999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 69,
+        "NAME" : "MUNSITHANG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.607489999999999,
+        "y" : 27.645720000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 70,
+        "NAME" : "PHENSANG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.608860000000007,
+        "y" : 27.424620000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 71,
+        "NAME" : "KABI",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.610230000000001,
+        "y" : 27.399899999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 72,
+        "NAME" : "RORITHANG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.611609999999999,
+        "y" : 27.196660000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 73,
+        "NAME" : "Gangtok",
+        "PLACE" : "city",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.612473300000005,
+        "y" : 27.329086700000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 74,
+        "NAME" : "Chungthang",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.646801999999994,
+        "y" : 27.6041621
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 75,
+        "NAME" : "PEGONG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.650059999999996,
+        "y" : 27.58942
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 76,
+        "NAME" : "East District",
+        "PLACE" : "county",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.666667000000004,
+        "y" : 27.333333
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 77,
+        "NAME" : "RONGLI",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.700869999999995,
+        "y" : 27.203520000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 78,
+        "NAME" : "Yumthang",
+        "PLACE" : "hamlet",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.703319100000002,
+        "y" : 27.804261
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 79,
+        "NAME" : "Yumesamdong",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.712471399999998,
+        "y" : 27.912735000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 80,
+        "NAME" : "KYANGSALA",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.713229999999996,
+        "y" : 27.36694
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 81,
+        "NAME" : "Dokya La",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.733829999999998,
+        "y" : 27.931370000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 82,
+        "NAME" : "LINGTAM",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.739320000000006,
+        "y" : 27.22824
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 83,
+        "NAME" : "Lachung",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.749260899999996,
+        "y" : 27.702923599999998
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 84,
+        "NAME" : "TSANGO",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.75855,
+        "y" : 27.376560000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 85,
+        "NAME" : "PADAMCHEN",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.768159999999995,
+        "y" : 27.237850000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 86,
+        "NAME" : "ZULUK",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.779150000000001,
+        "y" : 27.252960000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 87,
+        "NAME" : "THEAGU",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.786010000000005,
+        "y" : 27.376560000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 88,
+        "NAME" : "Katao",
+        "PLACE" : "village",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.814089300000006,
+        "y" : 27.671424399999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 89,
+        "NAME" : "SHERATHANG",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.814850000000007,
+        "y" : 27.380680000000002
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 90,
+        "NAME" : "NATHU LA",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.828590000000005,
+        "y" : 27.38617
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 91,
+        "NAME" : "KUPUP",
+        "PLACE" : "locality",
+        "ADDR:CITY" : " ",
+        "ADDR:HOUSE" : " ",
+        "ADDR:FLATS" : " ",
+        "ADDR:POSTC" : " "
+      },
+      "geometry" : {
+        "x" : 88.840950000000007,
+        "y" : 27.343599999999999
+      }
+    }
+  ]
+}

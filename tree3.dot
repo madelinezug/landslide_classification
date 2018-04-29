@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+graph [ranksep=equally, splines=polyline] ;
+0 [label="ELEVATION <= 1082.5\ngini = 0.383\nsamples = 155\nvalue = [40, 115]\nclass = no landslide", fillcolor="#399de5a6"] ;
+1 [label="gini = 0.0\nsamples = 47\nvalue = [0, 47]\nclass = no landslide", fillcolor="#399de5ff"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="SLOPE <= 18.956\ngini = 0.466\nsamples = 108\nvalue = [40, 68]\nclass = no landslide", fillcolor="#399de569"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+3 [label="ELEVATION <= 1126.0\ngini = 0.365\nsamples = 25\nvalue = [19, 6]\nclass = landslide", fillcolor="#e58139ae"] ;
+2 -> 3 ;
+4 [label="gini = 0.444\nsamples = 3\nvalue = [1, 2]\nclass = no landslide", fillcolor="#399de57f"] ;
+3 -> 4 ;
+5 [label="gini = 0.298\nsamples = 22\nvalue = [18, 4]\nclass = landslide", fillcolor="#e58139c6"] ;
+3 -> 5 ;
+6 [label="ELEVATION <= 2642.5\ngini = 0.378\nsamples = 83\nvalue = [21, 62]\nclass = no landslide", fillcolor="#399de5a9"] ;
+2 -> 6 ;
+7 [label="gini = 0.338\nsamples = 79\nvalue = [17, 62]\nclass = no landslide", fillcolor="#399de5b9"] ;
+6 -> 7 ;
+8 [label="gini = 0.0\nsamples = 4\nvalue = [4, 0]\nclass = landslide", fillcolor="#e58139ff"] ;
+6 -> 8 ;
+{rank=same ; 0} ;
+{rank=same ; 2} ;
+{rank=same ; 3; 6} ;
+{rank=same ; 1; 4; 5; 7; 8} ;
+}
