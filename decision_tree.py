@@ -28,11 +28,17 @@ answers = ([1]*20)+([0]*10)
 print("+++ Start of pandas' datahandling +++\n")
 
 # df is a "dataframe":
-df = pd.read_csv('data/landslide_data_with_flowacc.csv', sep=',', header=0)   # read the file w/header row #0
+df = pd.read_csv('data/landslide_data_streamdist.csv', sep=',', header=0)   # read the file w/header row #0
 
 # Now, let's take a look at a bit of the dataframe, df:
 df.head()                                 # first five lines
 df.info()                                 # column details
+
+# Calculate the number of features- minus the ID column and the classification column
+num_features = len(df.columns)-2
+print(num_features)
+feature_names = list(df)[1:-1]
+print(feature_names)
 
 # One important feature is the conversion from string to numeric datatypes!
 # For _input_ features, numpy and scikit-learn need numeric datatypes
@@ -58,7 +64,7 @@ print("+++ Start of numpy/scikit-learn +++\n")
 print("     +++++ Decision Trees +++++\n\n")
 
 # Data needs to be in numpy arrays - these next two lines convert to numpy arrays
-X_all = df.iloc[:,1:4].values        # iloc == "integer locations" of rows/cols
+X_all = df.iloc[:,1:num_features+1].values        # iloc == "integer locations" of rows/cols
 y_all = df[ 'LANDSLIDE' ].values      # individually addressable columns (by name)
 
 X_labeled = X_all[31:,:]  # make the 10 into 0 to keep all of the data
@@ -78,7 +84,6 @@ y_train = y_data_full
 # some labels to make the graphical trees more readable...
 #
 print("Some labels for the graphical tree:")
-feature_names = ['SLOPE', 'ELEVATION', 'FLOWACC']
 target_names = ['landslide', 'no landslide']
 
 #
@@ -130,8 +135,8 @@ print("\nChoosing MAX_DEPTH =", MAX_DEPTH, "\n")
 # now, train the model with ALL of the training data...  and predict the unknown labels
 #
 
-X_unknown = X_all[:30,:4]              # the final testing data
-X_train = X_all[31:,:4]              # the training data
+X_unknown = X_all[:30,:num_features+1]              # the final testing data
+X_train = X_all[31:,:num_features+1]              # the training data
 
 y_unknown = y_all[:30]                  # the final testing outputs/labels (unknown)
 y_train = y_all[31:]                  # the training outputs/labels (known)
@@ -165,6 +170,6 @@ for p, a in zip( predicted_labels, answer_labels ):
 #
 print()
 print("dtree.feature_importances_ are\n      ", dtree.feature_importances_) 
-print("Order:", feature_names[1:4])
+print("Order:", feature_names[1:num_features+1])
 
 
