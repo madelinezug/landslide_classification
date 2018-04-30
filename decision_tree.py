@@ -21,14 +21,14 @@ except ImportError:
 #
 # Here are the correct answers to the csv's "unknown" flowers
 #
-answers = ([1]*20)+([0]*10)
+answers = ([1]*15)+([0]*15)
 
 
 
 print("+++ Start of pandas' datahandling +++\n")
 
 # df is a "dataframe":
-df = pd.read_csv('data/landslide_data_streamdist.csv', sep=',', header=0)   # read the file w/header row #0
+df = pd.read_csv('data/landslide_data_rock_types.csv', sep=',', header=0)   # read the file w/header row #0
 
 # Now, let's take a look at a bit of the dataframe, df:
 df.head()                                 # first five lines
@@ -49,13 +49,14 @@ def transform(s):
           versicolor -> 1
           virginica -> 2
     """
-    d = { 'unknown':-1, 'setosa':0, 'versicolor':1, 'virginica':2 }
+    d = { 'unknown':-1, 'quartzite_schist':0, 'granite_gneiss':1, 'augen_gneiss':2, 'silicate_marble_quartzite':3 }
     return d[s]
     
 # 
 # this applies the function transform to a whole column
 #
-# df['irisname'] = df['irisname'].map(transform)  # apply the function to the column
+df['ROCK_TYPE'] = df['ROCK_TYPE'].map(transform)  # apply the function to the column
+print (df['ROCK_TYPE'])
 
 print("\n+++ End of pandas +++\n")
 
@@ -84,7 +85,7 @@ y_train = y_data_full
 # some labels to make the graphical trees more readable...
 #
 print("Some labels for the graphical tree:")
-target_names = ['landslide', 'no landslide']
+target_names = ['no landslide', 'landslide']
 
 #
 # show the creation of three tree files (at three max_depths)
@@ -128,7 +129,7 @@ for max_depth in range(1,12):
 # print("bye!")
 # sys.exit(0)
 
-MAX_DEPTH = 3   # choose a MAX_DEPTH based on cross-validation... 
+MAX_DEPTH = 2 # choose a MAX_DEPTH based on cross-validation... 
 print("\nChoosing MAX_DEPTH =", MAX_DEPTH, "\n")
 
 #
@@ -170,6 +171,6 @@ for p, a in zip( predicted_labels, answer_labels ):
 #
 print()
 print("dtree.feature_importances_ are\n      ", dtree.feature_importances_) 
-print("Order:", feature_names[1:num_features+1])
+print("Order:", feature_names)
 
 
